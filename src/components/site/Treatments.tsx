@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Sparkles, Smile, AlignJustify, SunMedium, Stethoscope, Tooth, X, Clock, Activity, Check } from "lucide-react";
+import { Sparkles, Smile, AlignJustify, SunMedium, Stethoscope, Bone, X, Clock, Activity, Check } from "lucide-react";
 import { Reveal } from "./Reveal";
 
 type Treatment = {
@@ -16,7 +16,7 @@ type Treatment = {
 const treatments: Treatment[] = [
   {
     id: "implants",
-    icon: Tooth,
+    icon: Bone,
     title: "Dental Implants",
     short: "Permanent, natural-feeling tooth replacement using titanium-grade roots.",
     bullets: ["3D-guided placement", "Same-day temporaries available", "Lifetime functional warranty"],
